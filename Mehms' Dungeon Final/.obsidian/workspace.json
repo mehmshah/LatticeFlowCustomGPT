@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b7211c919f9b8fc3",
+        "id": "7006537beabb21d1",
         "type": "tabs",
         "children": [
           {
-            "id": "3fe6cc7becec13c2",
+            "id": "488245dbb09ef445",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -161,11 +161,14 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "11485f790b39def3",
+  "active": "488245dbb09ef445",
   "lastOpenFiles": [
+    "LatticeFlow/Journals/Instructions/am_journal_output_log_template.md",
+    "Daily Notes/Weekly Tracker.md",
     "plugins/obsidian-git/styles.css",
     "plugins/obsidian-git/manifest.json",
     "plugins/obsidian-git/main.js",
@@ -177,11 +180,9 @@
     "LatticeFlow/Journals/Instructions/scoring_engine.py",
     "LatticeFlow/Journals/Instructions/emotional_engine.py",
     "scoring_engine.py",
-    "tagging_engine.py",
     "LatticeFlow/Journals/Instructions/reactivity_catch_tool_onepager.md",
     "LatticeFlow/Workouts/Instructions/Run_Warmup_Cooldown_v2.md",
     "LatticeFlow/Journals/Instructions/Daily_Chunking_Drill.md",
-    "LatticeFlow/Journals/Instructions/am_journal_output_log_template.md",
     "LatticeFlow/Journals/Instructions/ADHD_Self_Management_System.md",
     "Welcome.md",
     "Recipes/reverse_sear_steak.md",
@@ -198,7 +199,6 @@
     "Intentions/Tracker.md",
     "Intentions/Grocery Receipts.md",
     "Incomplete/reactivity_catch_tool_onepager.md",
-    "Daily Notes/Weekly Tracker.md",
     "Daily Notes/08-05-2025.md",
     "Daily Notes/08-03-2025.md",
     "Daily Notes/08-04-2025.md"
