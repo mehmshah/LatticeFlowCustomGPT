@@ -79,6 +79,15 @@
       ]
     },
     {
+      "step": "reactivity_materials_offer",
+      "prompt": "Would you like to review your reactivity materials?"
+    },
+    {
+      "step": "reactivity_materials_display",
+      "action": "Display reactivity_catch_tool_onepager.md summary",
+      "condition": "If user answers yes to reactivity_materials_offer"
+    },
+    {
       "step": "gratitude",
       "prompt": "What are you feeling grateful for today? You can focus on anything \u2014 a person, moment, or feeling."
     },

@@ -1,12 +1,16 @@
 ### Next Steps
-- Review Obsidian sync settings (password may just be our Obsidian password - but I don’t want to pay if I don’t have to)
 - Journaling
 	- Weekly review workflow
-	- PM (mimic AM routine as a "reflection" of that day)
+	- ADHD and reactivity materials to be iterated on as it should more fleshed out
+	- Ideate and build PM (mimic AM routine as a "reflection" of that day)
 - Automation
-	- Push and pull files automatically and perhaps even pull files so that we can easily edit them without ChatGPT's help
-	- Logic to read files (workouts = last log's weights/RPE, etc. and journaling = PM pulls AM)
-	- Ideate on other automations directly to Obsidian
+	- Logic is now set up for me to manually move files to save on development effort 
+	- Workout
+		- Build Actions in Workout GPT
+	- Journal
+		- PM pulls AM record for reflection
+		- Pull last weekly review for current weeks intentions and reflections
+		- Logic to prompt weekly review workflow
 - From there, THEN move onto the actual app so you can start using the most important ones, REASSESS here
 ### 📓 Journaling Module
 - Use You.com to pull cluster research papers 

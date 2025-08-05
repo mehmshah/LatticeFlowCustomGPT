@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7006537beabb21d1",
+        "id": "bb77ab8650082ec1",
         "type": "tabs",
         "children": [
           {
-            "id": "488245dbb09ef445",
+            "id": "d063bd6636ce1eea",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "488245dbb09ef445",
+  "active": "d063bd6636ce1eea",
   "lastOpenFiles": [
+    "LatticeFlow/Journals/Instructions/am_journal_gpt_instructions_final.md",
+    "LatticeFlow/Tracker.md",
     "LatticeFlow/Journals/Instructions/am_journal_output_log_template.md",
     "Daily Notes/Weekly Tracker.md",
     "plugins/obsidian-git/styles.css",
@@ -174,7 +176,6 @@
     "plugins/obsidian-git/main.js",
     "plugins/obsidian-git",
     "plugins",
-    "LatticeFlow/Journals/Instructions/am_journal_gpt_instructions_final.md",
     "LatticeFlow/Journals/Instructions/temp.txt",
     "LatticeFlow/Journals/Instructions/tagging_engine.py",
     "LatticeFlow/Journals/Instructions/scoring_engine.py",
@@ -195,7 +196,6 @@
     "LatticeFlow/Journals/am_journal_output_log_template.md",
     "LatticeFlow/Journals/Daily_Chunking_Drill.md",
     "LatticeFlow/Journals/ADHD_Self_Management_System.md",
-    "LatticeFlow/Tracker.md",
     "Intentions/Tracker.md",
     "Intentions/Grocery Receipts.md",
     "Incomplete/reactivity_catch_tool_onepager.md",
