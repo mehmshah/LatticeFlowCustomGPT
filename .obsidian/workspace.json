@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "623f8a5b8be1fa3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "f806778092107ec0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "429d9b75ef04ff25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mehms' Dungeon/LatticeFlow/Tracker.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tracker"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "63b3007475135a49",
+    "type": "split",
+    "children": [
+      {
+        "id": "69327cdddaf032c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb63933da42632e4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c2dec9fbbcb1da00",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7f5128311ad6734b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7e8ea66630e96024",
+    "type": "split",
+    "children": [
+      {
+        "id": "59d172b6753cc57f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c500c8eeb061b2eb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "5c7ea2b77570161f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "ffbc497e4fc7cb43",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5f422a1e5a3b46b4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "429d9b75ef04ff25",
+  "lastOpenFiles": [
+    "Mehms' Dungeon/LatticeFlow/Journals/journal_agent_review.json",
+    "Mehms' Dungeon/LatticeFlow/Journals/journal_agent_pm.json",
+    "Mehms' Dungeon/LatticeFlow/Journals/Daily_Chunking_Drill.md",
+    "Mehms' Dungeon/LatticeFlow/Journals/am_journal_output_log_template.md",
+    "Mehms' Dungeon/LatticeFlow/Journals/am_journal_gpt_instructions_final.txt",
+    "Mehms' Dungeon/LatticeFlow/Journals/am_journal_agent_v4.json",
+    "Mehms' Dungeon/LatticeFlow/Journals/ADHD_Self_Management_System.md",
+    "Mehms' Dungeon/LatticeFlow/Workouts/workout_rpe_reference.json",
+    "Mehms' Dungeon/LatticeFlow/Workouts/workout_day2.json",
+    "Mehms' Dungeon/LatticeFlow/Workouts/workout_day1.json",
+    "Mehms' Dungeon/LatticeFlow/Workouts/Run_Warmup_Cooldown_v2.md",
+    "Mehms' Dungeon/LatticeFlow/workout_day1.json.sb-5a9b7ef7-EVyy16",
+    "Mehms' Dungeon/LatticeFlow/workout_day2.json.sb-5a9b7ef7-X9QbLo",
+    "Mehms' Dungeon/LatticeFlow/Workouts/Day 2",
+    "Mehms' Dungeon/LatticeFlow/Workouts/Day 1"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "agent": "journal.review",
+  "description": "Weekly or monthly GPT-driven summary of journaling trends",
+  "input_format": {
+    "period": "e.g. 'last 7 days'",
+    "log_refs": [
+      "journal_am_log.md",
+      "journal_pm_log.md"
+    ]
+  },
+  "instructions": [
+    "Analyze all journal logs in range for trends in mood, energy, and check-ins.",
+    "Surface any skipped domains, declining scores, or emerging emotional patterns.",
+    "Return insight bullets + optional reflection prompt list.",
+    "Avoid summarizing each day; focus on thematic patterns.",
+    "Offer 2\u20133 gentle nudges based on nudge_guidelines.json."
+  ],
+  "output_example": {
+    "insights": [
+      "Mood stabilized midweek but dipped sharply Friday.",
+      "You missed 3 Gabby check-ins and didn\u2019t reflect on health at all.",
+      "Energy consistently under 6/10 \u2014 possible fatigue buildup."
+    ],
+    "suggested_prompts": [
+      "What might help restore energy next week?",
+      "Would you like to revisit your health goals?",
+      "How did the disconnect with Gabby make you feel?"
+    ]
+  }
+}

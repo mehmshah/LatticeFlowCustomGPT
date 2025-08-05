@@ -1,0 +1,65 @@
+{
+  "day": "Day 2",
+  "title": "Strength B — Posterior & Back Focus",
+  "warmup_bike": {
+    "name": "Stationary Bike",
+    "duration": "5–10 min",
+    "intensity": "Light to moderate"
+  },
+  "mobility": [
+    {"name": "Cat-Cow", "reps": "8"},
+    {"name": "Glute Bridge March", "reps": "10"},
+    {"name": "Hamstring Scoops", "reps": "10"},
+    {"name": "90/90 Hip Switches", "reps": "10"},
+    {"name": "Scapular Wall Slides", "reps": "10"}
+  ],
+  "supersets": [
+    {
+      "title": "Superset 1",
+      "sets": 4,
+      "exercises": [
+        {"name": "DB Romanian Deadlifts", "reps": "8–10", "desc": "Hinge at hips, dumbbells close to legs. Engage hamstrings and glutes."},
+        {"name": "Glute Bridges", "reps": "12", "desc": "Squeeze glutes at top. Optionally elevate feet on bench."},
+        {"name": "Bird Dogs", "reps": "10/side"},
+        {"name": "Side Plank", "reps": "20 sec/side"}
+      ]
+    },
+    {
+      "title": "Superset 2",
+      "sets": 4,
+      "exercises": [
+        {"name": "Bent-Over Rows", "reps": "10", "desc": "Row dumbbells to ribs, squeeze shoulder blades."},
+        {"name": "Hammer Curls", "reps": "12", "desc": "Palms face each other. Controlled up and down."},
+        {"name": "Glute Bridge Hold", "reps": "30 sec"},
+        {"name": "Dead Bug", "reps": "10/side"}
+      ]
+    },
+    {
+      "title": "Superset 3",
+      "sets": 4,
+      "exercises": [
+        {"name": "Reverse Lunges", "reps": "8/leg", "desc": "Step backward, front shin vertical. Push to stand."},
+        {"name": "DB Overhead Press", "reps": "10", "desc": "Press overhead. Engage core, avoid arching."},
+        {"name": "Superman Holds", "reps": "30 sec"},
+        {"name": "Bird Dogs", "reps": "10/side"}
+      ]
+    },
+    {
+      "title": "Superset 4",
+      "sets": 3,
+      "exercises": [
+        {"name": "Rear Delt Raises", "reps": "12", "desc": "Hinge forward, lift dumbbells out and slightly back."},
+        {"name": "Prone T-Y-I Raises", "reps": "10 each", "desc": "Raise arms into T, Y, I from prone position."},
+        {"name": "Superman Holds", "reps": "30 sec", "desc": "Lift arms/chest/legs. Hold. Engage glutes."}
+      ]
+    }
+  ],
+  "cooldown_mobility": [
+    {"name": "Child's Pose with Reach", "duration": "30 sec"},
+    {"name": "Spinal Twist (Lying)", "duration": "30 sec/side"},
+    {"name": "Hip Flexor Stretch", "duration": "30 sec/side"},
+    {"name": "Wall Pec Stretch", "duration": "30 sec/side"},
+    {"name": "Neck Rolls", "duration": "15 sec each direction"},
+    {"name": "Pigeon Pose", "duration": "30 sec/side"}
+  ]
+}

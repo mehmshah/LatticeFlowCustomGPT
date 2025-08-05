@@ -1,0 +1,65 @@
+{
+  "day": "Day 1",
+  "title": "Strength A — Quad & Chest Focus",
+  "warmup_bike": {
+    "name": "Stationary Bike",
+    "duration": "5–10 min",
+    "intensity": "Light to moderate"
+  },
+  "mobility": [
+    {"name": "World's Greatest Stretch", "reps": "3/side"},
+    {"name": "Arm Circles + Shoulder Rolls", "duration": "20 sec each direction"},
+    {"name": "Bodyweight Squats", "reps": "10"},
+    {"name": "Inchworm to Cobra Stretch", "reps": "5"},
+    {"name": "Hip CARs", "reps": "5/side"}
+  ],
+  "supersets": [
+    {
+      "title": "Superset 1",
+      "sets": 4,
+      "exercises": [
+        {"name": "Goblet Squats", "reps": "8–10", "desc": "Hold a dumbbell at chest height and squat with heels flat."},
+        {"name": "Wall Sit (Weighted Optional)", "reps": "30–45 sec", "desc": "Back against wall, knees at 90°, hold dumbbell optional."},
+        {"name": "Plank Hold", "reps": "45 sec"},
+        {"name": "Dead Bug", "reps": "10/side"}
+      ]
+    },
+    {
+      "title": "Superset 2",
+      "sets": 4,
+      "exercises": [
+        {"name": "Dumbbell Bench Press", "reps": "8–12", "desc": "Press from chest to full lockout, elbows slightly tucked."},
+        {"name": "Dumbbell Lateral Raises", "reps": "12", "desc": "Raise dumbbells to shoulder height; maintain tension on delts."},
+        {"name": "Mountain Climbers", "reps": "15/side"},
+        {"name": "Russian Twists", "reps": "20"}
+      ]
+    },
+    {
+      "title": "Superset 3",
+      "sets": 4,
+      "exercises": [
+        {"name": "Walking Lunges", "reps": "8/leg", "desc": "Step forward into lunge, knee above ankle, push off with front heel."},
+        {"name": "Arnold Press", "reps": "8–10", "desc": "Rotate palms outward as you press up for full shoulder range."},
+        {"name": "Seated Knee Tucks", "reps": "12"},
+        {"name": "Bird Dogs", "reps": "10/side"}
+      ]
+    },
+    {
+      "title": "Superset 4",
+      "sets": 3,
+      "exercises": [
+        {"name": "Triceps Kickbacks", "reps": "12", "desc": "Extend elbows fully while keeping upper arm stable."},
+        {"name": "Incline Push-Ups", "reps": "10–15", "desc": "Tight core, lower until chest nearly touches elevated surface."},
+        {"name": "Standing Calf Raises", "reps": "15–20", "desc": "Slow controlled rise onto toes, pause at top."}
+      ]
+    }
+  ],
+  "cooldown_mobility": [
+    {"name": "Bretzel Stretch", "duration": "30 sec/side"},
+    {"name": "Child's Pose with Reach", "duration": "30 sec"},
+    {"name": "Legs-Up-the-Wall", "duration": "2 min"},
+    {"name": "Lying Hamstring Stretch", "duration": "30 sec/leg"},
+    {"name": "Quadruped T-Spine Rotation", "reps": "8/side"},
+    {"name": "Seated Forward Fold", "duration": "1 min"}
+  ]
+}
