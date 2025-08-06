@@ -1,0 +1,17 @@
+- Companies/Industry of Interest
+	- Climate Tech
+	- Energy Tech
+	- Waste Tech
+	- Health Tech
+		- Withings
+		- Heidi Health
+	- Quantum
+		- Xanadu
+	- AI
+- Next Steps
+	- Reach out to Len again
+	- Reach out to Ozench at KPMG
+- Later
+	- rabbit intern - get tasks done with general AI agent
+	- Talk to Willie about his energy project
+	- Paul Yacoubian legit (Veronica Dasovich)

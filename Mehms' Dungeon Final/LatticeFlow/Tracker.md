@@ -1,8 +1,19 @@
-### Next Steps
+### Next Steps (***WE CAN EDIT FILES IN GITHUB!!!***) 
 - Journaling
 	- Weekly review workflow
 	- ADHD and reactivity materials to be iterated on as it should more fleshed out
 	- Ideate and build PM (mimic AM routine as a "reflection" of that day)
+	- Made up content for ADHD and Reactivity
+	- Tone could be better as it’s definitely adding in stuff that I didn’t outline 
+	- Mantra is spelled wrong and it’s not relevant anymore
+	- didn’t ask for sleep hours but I may skip that and call it recovery going forward 
+	- Didn’t ask for calendar focus and Google keep (rename)
+	- Tags aren’t really what I wanted 
+	- No prompting for depth 
+	- Feels more like a checklist and less like an opportunity for meaningful intention setting
+	- Should probably download and try some other apps 
+	- Way too many inputs - combine some sections
+	- Review tracked metrics (mood, energy, and recover) and see if we can find 2-3 other times in a day where we can log those metrics 
 - Automation
 	- Logic is now set up for me to manually move files to save on development effort 
 	- Workout

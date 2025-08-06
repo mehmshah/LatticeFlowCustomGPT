@@ -1,3 +1,5 @@
+- Blue J for tax research
+
 * For all hiring, detailed job descriptions required and explanations of why AI can't solve that problem with executive team committed to providing the resources necessary to use AI to solve problems
 
 * Should be on top of all of the changes in all AI models to understand how they can each be incorporated into the business

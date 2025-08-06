@@ -33,6 +33,7 @@ Quick-access guide to defusing emotional reactivity when receiving feedback.
 ## 🔄 Step 3: Reflect + Rephrase (R²)
 > "What I’m hearing is… [summary].  
 > What I’m feeling is… [emotion].  
+> What are you feeling…?
 > Can I explain why this is hard to process?"
 
 ---

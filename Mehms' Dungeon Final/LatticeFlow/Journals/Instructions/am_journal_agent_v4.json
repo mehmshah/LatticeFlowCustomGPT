@@ -3,9 +3,9 @@
   "description": "Updated AM journaling agent for LatticeFlow \u2014 includes ADHD review prompt, tagging/scoring/emotional engines, and task-planning reflection.",
   "input_format": {
     "timestamp": "ISO string",
-    "sleep_hours": "numeric (user-reported)",
-    "mood": "1\u201310 slider",
-    "energy": "1\u201310 slider",
+    "recovery": "1–10 slider",
+    "mood": "1–10 slider",
+    "energy": "1–10 slider",
     "intentions": [
       "short freeform strings"
     ],
@@ -14,82 +14,62 @@
   "sequence": [
     {
       "step": "mantra",
-      "content": "I choose transparency, agency and integrity for the best vision of myself."
+      "content": "Reactions are not reality. Nobody needs to accept you but you. What are the feelings?"
     },
     {
       "step": "meditation",
-      "prompt": "Do you want to do a 1-minute meditation?"
-    },
-    {
-      "step": "weather",
-      "prompt": "Please check the weather yourself before we continue."
-    },
-    {
-      "step": "calendar_check",
-      "prompt": "Please check your calendar for the day."
-    },
-    {
-      "step": "weight_check",
-      "prompt": "Reminder: Would you like to weigh in this morning?"
-    },
-    {
-      "step": "metrics_framework",
-      "prompt": "Let\u2019s quickly revisit how to rate mood and energy \u2014 so you're consistent day to day.",
-      "content": [
-        "Mood 1 = very low (overwhelmed, sad), 10 = very high (joyful, optimistic)",
-        "Energy 1 = barely functional, 10 = alert and physically energized"
-      ]
+      "prompt": "Take a 1-minute meditation now."
     },
     {
       "step": "metrics",
       "fields": [
-        "sleep_hours",
+        "recovery",
         "mood",
         "energy"
       ]
     },
     {
-      "step": "adhd_materials_offer",
-      "prompt": "Would you like to review your ADHD self-management tools before setting your focus?"
-    },
-    {
-      "step": "adhd_materials_display",
-      "action": "Display ADHD_Self_Management_System.md summary and rotating quote",
-      "condition": "If user answers yes to adhd_materials_offer"
-    },
-    {
-      "step": "adhd_focus",
-      "prompt": "Where do you want to put your focus for ADHD support today (e.g., memory, emotional regulation, task flow)?"
-    },
-    {
-      "step": "adhd_success",
-      "prompt": "What would make today feel like a success from an ADHD perspective?"
-    },
-    {
-      "step": "intentions_combined",
-      "prompt": "What are your top intentions for today \u2014 including personal goals, focus areas, and relationship check-ins (e.g., Cleo, Gabby, family, or friends)? For Cleo, it might be her development and your presence with her. For Gabby, it might be your reactions to her and how you are mindful of her feelings. For your family, it could be the ongoing work to help them with their quality of life and for you to heal your childhood trauma that informs your self-love and ability to take feedback. For friends, it could be wanting to engage with them more holistically and frequently."
-    },
-    {
-      "step": "self_love",
-      "prompt": "Self-Love Check-In",
-      "fields": [
-        "What are you going to focus on today to learn about self-love and heal your learned behaviour around people pleasing?"
-        "How will you appreciate your contributions today?",
-        "Reminder: My struggles are not something others have to accept of me; it\u2019s something I need to accept in myself and be at peace with."
+      "step": "metrics_framework",
+      "prompt": "Let's quickly revisit how to rate recovery, mood and energy — so you're consistent day to day.",
+      "content": [
+        "Recovery 1 = completely depleted (physically, mentally, emotionally exhausted), 10 = fully restored (feeling refreshed and resilient across all dimensions). Consider: How recovered do you feel from yesterday's physical exertion, mental demands, and emotional stress?",
+        "Mood 1 = very low (overwhelmed, sad), 10 = very high (joyful, optimistic)",
+        "Energy 1 = barely functional, 10 = alert and physically energized"
       ]
     },
     {
-      "step": "reactivity_materials_offer",
-      "prompt": "Would you like to review your reactivity materials?"
+      "step": "morning_logistics",
+      "prompt": "Morning Logistics",
+      "content": [
+        "Check the weather for today",
+        "Review your calendar for the day",
+        "Weigh in this morning"
+      ]
     },
     {
-      "step": "reactivity_materials_display",
-      "action": "Display reactivity_catch_tool_onepager.md summary",
-      "condition": "If user answers yes to reactivity_materials_offer"
+      "step": "materials_reminder",
+      "prompt": "Before setting your intentions, remember that you have access to your ADHD_Self_Management_System.md and reactivity_catch_tool_onepager.md documents if you'd like to review them."
+    },
+    {
+      "step": "combined_check_ins",
+      "prompt": "Check-In Section",
+      "content": [
+        "ADHD Focus: Where do you want to put your focus for ADHD support today (e.g., memory, emotional regulation, task flow)?",
+        "ADHD Success: What would make today feel like a success from an ADHD perspective?",
+        "Self-Love: What are you going to focus on today to learn about self-love and heal your learned behaviour around people pleasing?",
+        "Self-Appreciation: How will you appreciate your contributions today?",
+        "Calendar Focus: Where do you plan to put your main focus during your scheduled time today — before shifting into personal space, rest, or enjoyment?",
+        "Reminder: My struggles are not something others have to accept of me; it's something I need to accept in myself and be at peace with.",
+        "Note: Check in on however many of these areas feel relevant to you today."
+      ]
     },
     {
       "step": "gratitude",
-      "prompt": "What are you feeling grateful for today? You can focus on anything \u2014 a person, moment, or feeling."
+      "prompt": "What are you feeling grateful for today? You can focus on anything — a person, moment, or feeling."
+    },
+    {
+      "step": "intentions_combined",
+      "prompt": "What are your top intentions for today — including personal goals, focus areas, and relationship check-ins (e.g., Cleo, Gabby, family, or friends)? For Cleo, it might be her development and your presence with her. For Gabby, it might be your reactions to her and how you are mindful of her feelings. For your family, it could be the ongoing work to help them with their quality of life and for you to heal your childhood trauma that informs your self-love and ability to take feedback. For friends, it could be wanting to engage with them more holistically and frequently."
     },
     {
       "step": "reminders",
@@ -99,10 +79,6 @@
         "\u2611 Meal planning for today",
         "\u2611 Daily chunking reading"
       ]
-    },
-    {
-      "step": "calendar_focus_and_keep",
-      "prompt": "Where do you plan to put your main focus during your scheduled time today \u2014 before shifting into personal space, rest, or enjoyment?\n\nAlso, take a moment to check your Google Keep list for the week to remind yourself of key tasks. But remember: free time doesn\u2019t always need to become task time. You can also rest or simply be present."
     },
     {
       "step": "tagging",

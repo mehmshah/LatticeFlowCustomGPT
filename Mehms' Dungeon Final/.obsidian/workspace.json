@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bb77ab8650082ec1",
+        "id": "f6cf275e7e6e3eae",
         "type": "tabs",
         "children": [
           {
-            "id": "d063bd6636ce1eea",
+            "id": "daa81a45eb17d8c7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "LatticeFlow/Journals/Instructions/reactivity_catch_tool_onepager.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "reactivity_catch_tool_onepager"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 367.5
   },
   "right": {
     "id": "5eb39f96a9f42516",
@@ -165,42 +169,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d063bd6636ce1eea",
+  "active": "daa81a45eb17d8c7",
   "lastOpenFiles": [
     "LatticeFlow/Journals/Instructions/am_journal_gpt_instructions_final.md",
-    "LatticeFlow/Tracker.md",
     "LatticeFlow/Journals/Instructions/am_journal_output_log_template.md",
+    "LatticeFlow/Learning/Learning Repository.md",
+    "Pasted image 20250806104026.png",
+    "Daily Notes/08-06-2025.md",
+    "LatticeFlow/Journals/AM/am_journal_log_2025_08_06.md",
+    "Daily Notes/08-05-2025.md",
     "Daily Notes/Weekly Tracker.md",
-    "plugins/obsidian-git/styles.css",
-    "plugins/obsidian-git/manifest.json",
-    "plugins/obsidian-git/main.js",
-    "plugins/obsidian-git",
-    "plugins",
-    "LatticeFlow/Journals/Instructions/temp.txt",
-    "LatticeFlow/Journals/Instructions/tagging_engine.py",
-    "LatticeFlow/Journals/Instructions/scoring_engine.py",
-    "LatticeFlow/Journals/Instructions/emotional_engine.py",
-    "scoring_engine.py",
+    "Career/Tracker.md",
+    "Welcome.md",
+    "Career/Resume, etc./Mehmet Shah Cover Letter Friendlier.pdf",
+    "Career/Raven Analysis.pdf",
+    "Career/Mehmet Shah Cover Letter Friendlier.pdf",
+    "Career/Knowledge_System_v1.md",
+    "Career/Mehmet Shah Resume.pdf",
+    "Career/StackAdapt_Talking_Points_Playbook_EmojiFriendly.pdf",
+    "Career/Road to Intentions 1.0.md",
+    "Career/Networks.md",
+    "Career/Rolodex.md",
+    "LatticeFlow/Learning/Knowledge_System_v1.md",
+    "Career/Resume, etc.",
+    "LatticeFlow/Learning",
+    "Career/Old/Raven Analysis.pdf",
+    "Intentions/Road to Intentions 1.0.md",
     "LatticeFlow/Journals/Instructions/reactivity_catch_tool_onepager.md",
+    "Career/Old",
+    "LatticeFlow/Tracker.md",
+    "plugins/obsidian-git/styles.css",
     "LatticeFlow/Workouts/Instructions/Run_Warmup_Cooldown_v2.md",
     "LatticeFlow/Journals/Instructions/Daily_Chunking_Drill.md",
     "LatticeFlow/Journals/Instructions/ADHD_Self_Management_System.md",
-    "Welcome.md",
     "Recipes/reverse_sear_steak.md",
     "Recipes/lean_protein_bar_recipe.md",
     "Other/EpiPen_Instructions.md",
     "Other/Cleo Stressors.md",
-    "Life Workflow/Microdosing Schedule.md",
-    "Life Workflow/ChatGPT Custom Prompt System.md",
-    "LatticeFlow/Workouts/Run_Warmup_Cooldown_v2.md",
-    "LatticeFlow/Journals/am_journal_output_log_template.md",
-    "LatticeFlow/Journals/Daily_Chunking_Drill.md",
-    "LatticeFlow/Journals/ADHD_Self_Management_System.md",
-    "Intentions/Tracker.md",
-    "Intentions/Grocery Receipts.md",
-    "Incomplete/reactivity_catch_tool_onepager.md",
-    "Daily Notes/08-05-2025.md",
-    "Daily Notes/08-03-2025.md",
-    "Daily Notes/08-04-2025.md"
+    "Life Workflow/Microdosing Schedule.md"
   ]
 }
