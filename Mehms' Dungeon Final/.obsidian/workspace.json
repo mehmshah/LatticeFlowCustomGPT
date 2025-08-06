@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LatticeFlow/Journals/Instructions/reactivity_catch_tool_onepager.md",
+                "file": "LatticeFlow/Tracker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "reactivity_catch_tool_onepager"
+              "title": "Tracker"
             }
           }
         ]
@@ -171,6 +171,8 @@
   },
   "active": "daa81a45eb17d8c7",
   "lastOpenFiles": [
+    "Daily Notes/Weekly Tracker.md",
+    "LatticeFlow/Journals/Instructions/reactivity_catch_tool_onepager.md",
     "LatticeFlow/Journals/Instructions/am_journal_gpt_instructions_final.md",
     "LatticeFlow/Journals/Instructions/am_journal_output_log_template.md",
     "LatticeFlow/Learning/Learning Repository.md",
@@ -178,7 +180,6 @@
     "Daily Notes/08-06-2025.md",
     "LatticeFlow/Journals/AM/am_journal_log_2025_08_06.md",
     "Daily Notes/08-05-2025.md",
-    "Daily Notes/Weekly Tracker.md",
     "Career/Tracker.md",
     "Welcome.md",
     "Career/Resume, etc./Mehmet Shah Cover Letter Friendlier.pdf",
@@ -195,7 +196,6 @@
     "LatticeFlow/Learning",
     "Career/Old/Raven Analysis.pdf",
     "Intentions/Road to Intentions 1.0.md",
-    "LatticeFlow/Journals/Instructions/reactivity_catch_tool_onepager.md",
     "Career/Old",
     "LatticeFlow/Tracker.md",
     "plugins/obsidian-git/styles.css",
