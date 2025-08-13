@@ -1,0 +1,27 @@
+openapi: 3.0.0
+info:
+  title: Obsidian Writer (Logs)
+  version: 1.0.0
+servers:
+  - url: https://your-replit-app.repl.co
+paths:
+  /logs:
+    post:
+      summary: Save Markdown and JSON logs into the Obsidian vault folders
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                routine_id: { type: string }
+                date: { type: string }
+                md_relpath: { type: string, example: "obsidian/Journal/2025-08-13.md" }
+                md_content: { type: string }
+                json_relpath: { type: string, example: "logs/journal/2025-08-13.json" }
+                json_content: { type: object }
+              required: [routine_id, date, md_relpath, md_content, json_relpath, json_content]
+      responses:
+        "200":
+          description: Written

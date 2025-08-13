@@ -1,97 +1,140 @@
 {
   "agent": "journal.am",
-  "description": "Updated AM journaling agent for LatticeFlow \u2014 includes ADHD review prompt, tagging/scoring/emotional engines, and task-planning reflection.",
-  "input_format": {
-    "timestamp": "ISO string",
-    "recovery": "1–10 slider",
-    "mood": "1–10 slider",
-    "energy": "1–10 slider",
-    "intentions": [
-      "short freeform strings"
-    ],
-    "pause_reflection": "optional short reflection text"
-  },
+  "id": "journal.am",
+  "version": "2.0.0",
+  "title": "AM Journal (Condensed)",
+  "description": "AM routine with 4 sections, auto-rotation of Focus & Self-Management categories, and end-of-flow tagging.",
   "sequence": [
     {
+      "section": "Mindset & Check-In",
+      "step": "mindset_intro",
+      "prompt": "Let\u2019s begin with mindset. First, your mantra. Then Mood/Energy/Recovery in one go."
+    },
+    {
       "step": "mantra",
-      "content": "Reactions are not reality. Nobody needs to accept you but you. What are the feelings?"
+      "prompt": "State your mantra (or say 'rotate' for a new one)."
     },
     {
-      "step": "meditation",
-      "prompt": "Take a 1-minute meditation now."
-    },
-    {
-      "step": "metrics",
+      "step": "metrics_mer",
+      "prompt": "Rate **Mood**, **Energy**, and **Recovery** (sleep/rest) using 1\u201310 frameworks:\n- Mood: 1=overwhelmed/sad, 10=joyful/optimistic\n- Energy: 1=sluggish, 10=vibrant/ready\n- Recovery: 1=depleted, 10=fully restored\nOptionally add a brief 'why' for each.",
       "fields": [
-        "recovery",
-        "mood",
-        "energy"
+        "mood (1-10)",
+        "energy (1-10)",
+        "recovery (1-10)",
+        "why_mood",
+        "why_energy",
+        "why_recovery"
       ]
     },
     {
-      "step": "metrics_framework",
-      "prompt": "Let's quickly revisit how to rate recovery, mood and energy — so you're consistent day to day.",
-      "content": [
-        "Recovery 1 = completely depleted (physically, mentally, emotionally exhausted), 10 = fully restored (feeling refreshed and resilient across all dimensions). Consider: How recovered do you feel from yesterday's physical exertion, mental demands, and emotional stress?",
-        "Mood 1 = very low (overwhelmed, sad), 10 = very high (joyful, optimistic)",
-        "Energy 1 = barely functional, 10 = alert and physically energized"
+      "step": "pause_after_section_1",
+      "prompt": "Pause. Ready to continue?"
+    },
+    {
+      "section": "Intentions & Gratitude",
+      "step": "intentions_intro",
+      "prompt": "Intentions first, then gratitude. Keep it relational and concrete."
+    },
+    {
+      "step": "intentions_framework",
+      "prompt": "Intentions \u2014 Theme (1\u20132 words), People (e.g., Cleo, Gabby, parents), Actions (how you\u2019ll live the theme).",
+      "fields": [
+        "intent_theme",
+        "intent_people",
+        "intent_actions"
       ]
     },
     {
-      "step": "morning_logistics",
-      "prompt": "Morning Logistics",
-      "content": [
-        "Check the weather for today",
-        "Review your calendar for the day",
-        "Weigh in this morning"
+      "step": "gratitude_framework",
+      "prompt": "Gratitude \u2014 Anchor (who/what), Specific Moment (detail), Why it matters today.",
+      "fields": [
+        "gratitude_anchor",
+        "gratitude_moment",
+        "gratitude_why"
       ]
     },
     {
-      "step": "materials_reminder",
-      "prompt": "Before setting your intentions, remember that you have access to your ADHD_Self_Management_System.md and reactivity_catch_tool_onepager.md documents if you'd like to review them."
+      "step": "pause_after_section_2",
+      "prompt": "Pause. Ready to continue?"
     },
     {
-      "step": "combined_check_ins",
-      "prompt": "Check-In Section",
-      "content": [
-        "ADHD Focus: Where do you want to put your focus for ADHD support today (e.g., memory, emotional regulation, task flow)?",
-        "ADHD Success: What would make today feel like a success from an ADHD perspective?",
-        "Self-Love: What are you going to focus on today to learn about self-love and heal your learned behaviour around people pleasing?",
-        "Self-Appreciation: How will you appreciate your contributions today?",
-        "Calendar Focus: Where do you plan to put your main focus during your scheduled time today — before shifting into personal space, rest, or enjoyment?",
-        "Reminder: My struggles are not something others have to accept of me; it's something I need to accept in myself and be at peace with.",
-        "Note: Check in on however many of these areas feel relevant to you today."
+      "section": "Focus & Self-Management",
+      "step": "fsm_intro",
+      "prompt": "We\u2019ll do TWO categories today (auto-rotating): ADHD, Reactivity, Self-Love, Impulsivity. Pulling yesterday\u2019s focuses now."
+    },
+    {
+      "step": "fsm_auto_rotation",
+      "action": "From the last AM JSON log, select two categories NOT done yesterday (rotate through ADHD, Reactivity, Self-Love, Impulsivity)."
+    },
+    {
+      "step": "fsm_ad_hd",
+      "condition": "Shown if ADHD selected by rotation",
+      "prompt": "ADHD \u2014 Practical tip of the day (from ADHD_Self_Management_System.md). What's your one focus for ADHD today?",
+      "fields": [
+        "adhd_focus_today"
       ]
     },
     {
-      "step": "gratitude",
-      "prompt": "What are you feeling grateful for today? You can focus on anything — a person, moment, or feeling."
+      "step": "fsm_reactivity",
+      "condition": "Shown if Reactivity selected by rotation",
+      "prompt": "Reactivity \u2014 Short reflection from reactivity_catch_tool_onepager.md. What\u2019s your one plan for staying regulated today?",
+      "fields": [
+        "reactivity_plan_today"
+      ]
     },
     {
-      "step": "intentions_combined",
-      "prompt": "What are your top intentions for today — including personal goals, focus areas, and relationship check-ins (e.g., Cleo, Gabby, family, or friends)? For Cleo, it might be her development and your presence with her. For Gabby, it might be your reactions to her and how you are mindful of her feelings. For your family, it could be the ongoing work to help them with their quality of life and for you to heal your childhood trauma that informs your self-love and ability to take feedback. For friends, it could be wanting to engage with them more holistically and frequently."
+      "step": "fsm_self_love",
+      "condition": "Shown if Self-Love selected by rotation",
+      "prompt": "Self-Love \u2014 Today, avoid people-pleasing/fawning; act with self-confidence without seeking external validation.\nName one situation where you'll practice this and how.",
+      "fields": [
+        "self_love_plan_today"
+      ]
+    },
+    {
+      "step": "fsm_impulsivity",
+      "condition": "Shown if Impulsivity selected by rotation",
+      "prompt": "Impulsivity \u2014 Pre-commitment: name one decision you'll make slowly today and your slowing tactic.",
+      "fields": [
+        "impulsivity_precommit_today"
+      ]
+    },
+    {
+      "step": "pause_after_section_3",
+      "prompt": "Pause. Ready to continue?"
+    },
+    {
+      "section": "Logistics",
+      "step": "logistics_intro",
+      "prompt": "Now logistics: calendar, Obsidian task check, and reminders."
+    },
+    {
+      "step": "calendar_today",
+      "action": "Use Google Calendar Action to fetch events for the current day (00:00\u201323:59 local time).",
+      "params": {
+        "tz": "America/Toronto"
+      },
+      "prompt": "Here are today's events. Any conflicts with your intentions? Adjust anything?"
+    },
+    {
+      "step": "obsidian_task_check",
+      "prompt": "Check your Obsidian tasks for the week. What (if anything) needs attention *today*?"
     },
     {
       "step": "reminders",
-      "prompt": "Daily Reminders",
+      "prompt": "Reminders for today:",
       "content": [
         "\u2611 Gabby's supplements",
-        "\u2611 Meal planning for today",
-        "\u2611 Daily chunking reading",
-        "\u2611 Journal 2-3 times before bed to capture metrics"
+        "\u2611 Meal planning",
+        "\u2611 Daily chunking reading"
       ]
     },
     {
-      "step": "tagging",
-      "action": "Use uploaded tagging_engine.py to classify tone and themes and use emotional_engine.py for tone classification"
+      "step": "pause_after_section_4",
+      "prompt": "All set. Finalize?"
     },
     {
-      "step": "scoring",
-      "action": "Use scoring_engine.py to normalize and interpret mood and energy metrics"
-    },
-    {
-      "step": "log_and_reminder",
-      "action": "Produce a markdown log and remind to upload to Obsidian"
+      "step": "postprocess_tagging",
+      "action": "Run tagging, scoring, emotional engines AFTER full context, then generate MD+JSON outputs."
     }
   ]
 }

@@ -1,0 +1,38 @@
+openapi: 3.0.0
+info:
+  title: Google Calendar Helper (Read-Only)
+  version: 1.1.0
+servers:
+  - url: https://your-calendar-bridge.example.com
+paths:
+  /events/today:
+    get:
+      summary: Get events for the current day (midnight→midnight) in a given timezone
+      parameters:
+        - name: tz
+          in: query
+          required: false
+          schema:
+            type: string
+            example: America/Toronto
+      responses:
+        "200":
+          description: List of calendar events for the current day
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  date:
+                    type: string
+                    example: 2025-08-13
+                  events:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        title: {type: string}
+                        start: {type: string}
+                        end: {type: string}
+                        location: {type: string}
+                        attendees: {type: array, items: {type: string}}

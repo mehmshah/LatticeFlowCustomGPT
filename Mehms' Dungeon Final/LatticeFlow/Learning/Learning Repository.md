@@ -1,3 +1,8 @@
+- “Impact value” of team members to drive promotions to reward difference makers  
+- Executive manifesto
+- How do product teams actually build products?
+- Is Motion legit?
+
 - Blue J for tax research
 
 * For all hiring, detailed job descriptions required and explanations of why AI can't solve that problem with executive team committed to providing the resources necessary to use AI to solve problems

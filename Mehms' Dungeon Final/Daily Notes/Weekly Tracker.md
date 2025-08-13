@@ -1,21 +1,38 @@
-Priorities:
-- Intentions work (2 pomodoros)
-- Meat CSA (1 pomodoro)
-- Messages notification fatigue and being more available for Gabs messages (1 pomodoro)
+**Priorities**:
+- #Strategic ICG proposal (respond with high level plan and explanation - MightyDigits)
+- #Strategic Lattice Flow research
+- #Strategic Populate Rolodex with remaining information and review Chatty first pass
+- #Strategic Look at companies (Rillet)
+- #Strategic Message Marian at Xanadu
+- #Strategic Emotional healing proposal 
+	- **Goals**:
+		- Be less reactive
+		- Decouple my anger from Gabby
+		- Learn how to love myself
+		- Unlearn my people pleasing and fawning tendency
+		- More mindfulness, presence, and awareness
+	- **Weed**: 
+		- Less THC (less than 20%)
+		- More CBD (higher ratio of CBD:THC)
+		- Only on nights where I’m not getting Cleo the next day and preferably weekends
+		- Nothing past 7PM
+		- 3-4 day buffer minimum 
+	- **Parents**: 
+		- Weekly family therapy
+		- Weekly hang with mom and dad separately to spend time outside of the house talking
+	- **Gabby**: 
+		- Reduction in occurrences fights related to defensiveness and emotional outbursts using code phrase to cut it off before it starts 
+	- **Cleo**: 
+		- Code word/phrase for stopping what we are talking about in front of her as to not affect her
 
-Available Tasks:
-- Brick
-- Horror
-	- Speak No Evil
-	- It by Comes At Night 
-	- Talk To Me
-	- Heretic
-	- Blink Twice ( VERY DARK)
-	- Trap ( more thriller)
-	- The Popes Exorcist
-	- Knock At The Cabin
-	- Late Night With The Devil
-- Grocery list update (include fridge items)
-- Descale coffee machine
-- Toto maintenance
-- Saponetti (baking soda, dish soap [large], check for other stuff)
+**Available Tasks**:
+- #Maintenance Monthly budget process
+- #Maintenance Saponetti (baking soda, dish soap [large], check for other stuff)
+- #Maintenance Dishwasher vinegar and baking soda cycles
+- #Relationship Cleo Twinrix and appointment
+- #Relationship Gabby physical touch and glass of water when upset
+- #Relationship Cleo swim classes (Gabby confirm and share credit information)
+- #Relationship Miguel finances conversation
+- #Interests Meat CSA (1 pomodoro)
+- #Admin Monique recommendation for paintings
+- #Quick Climate North https://lu.ma/climatenorth?e=calev-QBLPHOlUuhmo5Lo

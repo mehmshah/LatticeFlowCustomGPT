@@ -1,0 +1,15 @@
+### Next Steps
+- Speak to Mike Hollinger about agreements (5-10% equity over 3 years, 5-10 hours a month, milestones to be agreed upon
+- Review and finalize long range plan with team in person
+- Set up and learn Linear
+- Review Figma
+- Research AI unit economics (tech stack needed)
+- Launch strategy for GTM (we want to launch broadly in 3 months and want to have everything ironed out for that launch)
+- Manifesto of values and principles
+- Savings analysis on purchases
+- Beta user slack channel
+- Beta user 12 month free with monthly survey 
+- NLP upload of bills (utility and internet), invoices (pet expenses), receipts (groceries) and store as written data + some kind of feedback loop that ties into goals
+- Subscription tiers (no AI vs AI) and monthly vs annual plans
+- How do we measure users value derived? Perhaps we score them monthly to see how the app has improved their happiness, fulfillment and relationship with their money
+- Standardize some of the tags or create one that shows whether a purchase was positive or negative or fulfilling / must have vs nice to have in order to distinguish between discretionary expenses that affect happiness etc

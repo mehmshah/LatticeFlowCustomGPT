@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "routines": [
+    {
+      "id": "journal.am",
+      "name": "AM Journal",
+      "type": "journal",
+      "path": "routines/journal_am.json"
+    },
+    {
+      "id": "workout.day1",
+      "name": "Workout Day 1 \u2014 Strength A",
+      "type": "workout",
+      "path": "routines/workout_day1.json"
+    },
+    {
+      "id": "workout.day2",
+      "name": "Workout Day 2 \u2014 Strength B",
+      "type": "workout",
+      "path": "routines/workout_day2.json"
+    },
+    {
+      "id": "run.warmup",
+      "name": "Run \u2014 Warm-Up & Cooldown",
+      "type": "mobility",
+      "path": "routines/run_warmup_cooldown.json"
+    },
+    {
+      "id": "mobility.lb",
+      "name": "Lower Body & Back Mobility",
+      "type": "mobility",
+      "path": "routines/mobility_lower_body_back_flow.json"
+    }
+  ]
+}
