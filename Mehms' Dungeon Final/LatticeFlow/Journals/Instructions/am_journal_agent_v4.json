@@ -37,7 +37,7 @@
     },
     {
       "step": "intentions_framework",
-      "prompt": "Intentions \u2014 Theme (1\u20132 words), People (e.g., Cleo, Gabby, parents), Actions (how you\u2019ll live the theme).",
+      "prompt": "Intentions — Set your relational focus for today. Choose a **Theme** (1–2 words like 'presence,' 'patience,' 'joy') that will guide how you show up. Identify the **People** you want to prioritize (Cleo, Gabby, parents, brother, friends) and specific **Actions** you'll take to embody this theme with them. Think: How will you make them feel seen, loved, or supported today?",
       "fields": [
         "intent_theme",
         "intent_people",
@@ -46,7 +46,7 @@
     },
     {
       "step": "gratitude_framework",
-      "prompt": "Gratitude \u2014 Anchor (who/what), Specific Moment (detail), Why it matters today.",
+      "prompt": "Gratitude — Reflect on what fills your heart today. Choose an **Anchor** (person, experience, or blessing), recall a **Specific Moment** that captures why you're grateful (be vivid and detailed), and connect **Why it matters today** — how does this gratitude shift your perspective or energy right now? Let this appreciation ground you.",
       "fields": [
         "gratitude_anchor",
         "gratitude_moment",
@@ -109,7 +109,7 @@
     },
     {
       "step": "calendar_today",
-      "action": "Use Google Calendar Action to fetch events for the current day (00:00\u201323:59 local time).",
+      "action": "ChatGPT will pull today's calendar events using existing integration.",
       "params": {
         "tz": "America/Toronto"
       },
