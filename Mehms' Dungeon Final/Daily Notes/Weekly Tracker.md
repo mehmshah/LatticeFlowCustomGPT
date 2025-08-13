@@ -29,7 +29,7 @@
 - #Maintenance Monthly budget process
 - #Maintenance Saponetti (baking soda, dish soap [large], check for other stuff)
 - #Maintenance Dishwasher vinegar and baking soda cycles
-- #Relationship Cleo Twinrix and appointment
+- #Relationship Cleo Twinrix pick-up and appointment
 - #Relationship Gabby physical touch and glass of water when upset
 - #Relationship Cleo swim classes (Gabby confirm and share credit information)
 - #Relationship Miguel finances conversation
